@@ -16,23 +16,13 @@ Hence, that field is coming as blank in all the cards.
     For making the layout compatible with mobiles, tablets & desktop, media queries have been used to set the width of columns as per the resolution of devices.
 
 # Unit Test Cases 
- 1. 100% Statements
- 2. 81.25% Branches
- 3. 92.86% Functions
- 4. 100% Lines 
  ![alt text](https://github.com/shivanimehrotra29/ps-xt/blob/master/unit_tests.png?raw=true)
+ 
+# Lighthouse Report (Mobile)
+![alt text](https://github.com/shivanimehrotra29/ps-xt/blob/master/mobile.png?raw=true)
 
-# Lighthouse Report (Mobile) (Screenshot attached in mail)
-1. Performace - 54
-2. Accessibility - 100
-3. Best Practices - 100
-4. SEO - 92
-
-# Lighthouse Report (Desktop) (Screenshot attached in mail)
-1. Performace - 67
-2. Accessibility - 100
-3. Best Practices - 100
-4. SEO - 91
+# Lighthouse Report (Desktop)
+![alt text](https://github.com/shivanimehrotra29/ps-xt/blob/master/desktop.png?raw=true)
 
 # Github Repository
 https://github.com/shivanimehrotra29/PS-XT
