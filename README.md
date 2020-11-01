@@ -8,7 +8,7 @@ Hence, that field is coming as blank in all the cards.
 1. Angular version 8.3.12.
 2. TypeScript
 3. HTML5
-4. SCCS
+4. SCSS
 
 # Approach
 1. For server side rending : Angular Universal
