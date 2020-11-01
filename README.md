@@ -20,7 +20,7 @@ Hence, that field is coming as blank in all the cards.
  2. 81.25% Branches
  3. 92.86% Functions
  4. 100% Lines 
- ![alt text](https://github.com/shivanimehrotra29/ps-xt/blob/master/image.jpg?raw=true)
+ ![alt text](https://github.com/shivanimehrotra29/ps-xt/blob/master/unit_tests.png?raw=true)
 
 # Lighthouse Report (Mobile) (Screenshot attached in mail)
 1. Performace - 54
