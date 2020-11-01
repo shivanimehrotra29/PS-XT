@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-3 p-l-0" *ngFor="let item of data">
+    <div class="card dashboard-item">
+      <img
+        [src]="item.links.mission_patch_small"
+        [alt]="item.mission_name"
+        width=""
+        height=""
+      />
+      <div class="mission-name">
+        {{ item.mission_name }} #{{ item.flight_number }}
+      </div>
+      <div class="mission-id">
+        <label> Mission Ids:</label>
+        <ul>
+          <li *ngFor="let id of item.mission_id">{{ id }}</li>
+        </ul>
+      </div>
+      <div class="launch-year">
+        <label>Launch year:</label> {{ item.launch_year }}
+      </div>
+      <div class="launch-success">
+        <label>Successful Launch:</label> {{ item.launch_success }}
+      </div>
+      <div class="land-success">
+        <label>Successful Landing:</label> {{ item.land_success }}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,83 @@
+<div class="card filters">
+  <div class="header">
+    <div>Filters</div>
+  </div>
+
+  <div class="year-list">
+    <div class="filter-header">Launch year</div>
+    <!-- <mat-button-toggle-group name="yearList" class="row">
+      <mat-button-toggle
+        *ngFor="let year of filterList"
+        value="year"
+        class="col-6 year-block"
+        
+        >{{ year }}</mat-button-toggle
+      >
+    </mat-button-toggle-group> -->
+    <div class="toggle-button-group row">
+      <div class="col-6 toggle-col" *ngFor="let year of filterList">
+        <div
+          class="toggle-button-item"
+          [ngClass]="{ 'toggle-button-checked': filterData.year === year }"
+          (click)="filterMissionsByYear(year)"
+        >
+          {{ year }}
+        </div>
+      </div>
+    </div>
+    <div class="succss-launch">
+      <div class="filter-header">Successful Launch</div>
+      <div class="toggle-button-group row">
+        <div class="col-6 toggle-col">
+          <div
+            class="toggle-button-item"
+            [ngClass]="{
+              'toggle-button-checked': filterData.launch_success === true
+            }"
+            (click)="filterMissionsByLaunch(true)"
+          >
+            True
+          </div>
+        </div>
+        <div class="col-6 toggle-col">
+          <div
+            class="toggle-button-item"
+            [ngClass]="{
+              'toggle-button-checked': filterData.launch_success === false
+            }"
+            (click)="filterMissionsByLaunch(false)"
+          >
+            False
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="succss-landing">
+      <div class="filter-header">Successful landing</div>
+      <div class="toggle-button-group row">
+        <div class="col-6 toggle-col">
+          <div
+            class="toggle-button-item"
+            (click)="filterMissionsByLanding(true)"
+            [ngClass]="{
+              'toggle-button-checked': filterData.land_success === true
+            }"
+          >
+            True
+          </div>
+        </div>
+        <div class="col-6 toggle-col">
+          <div
+            class="toggle-button-item"
+            [ngClass]="{
+              'toggle-button-checked': filterData.land_success === false
+            }"
+            (click)="filterMissionsByLanding(false)"
+          >
+            False
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
