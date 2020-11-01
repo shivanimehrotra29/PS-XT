@@ -15,11 +15,12 @@ Hence, that field is coming as blank in all the cards.
 2. For responsive layout : Media Queries
     For making the layout compatible with mobiles, tablets & desktop, media queries have been used to set the width of columns as per the resolution of devices.
 
-# Unit Test Cases (Screenshot attached in mail)
+# Unit Test Cases 
  1. 100% Statements
  2. 81.25% Branches
  3. 92.86% Functions
  4. 100% Lines 
+ ![alt text](https://github.com/shivanimehrotra29/ps-xt/blob/master/image.jpg?raw=true)
 
 # Lighthouse Report (Mobile) (Screenshot attached in mail)
 1. Performace - 54
