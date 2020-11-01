@@ -35,3 +35,6 @@ Hence, that field is coming as blank in all the cards.
 
 # Github Repository
 https://github.com/shivanimehrotra29/PS-XT
+
+# Heroku Link
+https://ps-xt-coding-assignment.herokuapp.com/
